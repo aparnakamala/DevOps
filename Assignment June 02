@@ -1,11 +1,48 @@
 
 1.	Create a directory “Devops”.
-2.	Create a file “LinuxCommands” in “Devops” directory.
+
+  command: mkdir Devops 
+
+2.	Create a file “LinuxCommands” in “Devops” directory.s.c
+
+  command: cd Devops
+         touch LinuxCommands.c
+ 
 3.	Find and list the path of the file.
+
+  command: pwd
+         /home/aparna/Devops
 4.	Create another Directory, “LinuxOS”
-5.	Create a text file, “About” in LinuxOS and write something about Linux operating system.
+  command: cd
+         mkdir LinuxOS
+5.	Create a text file, “About” in LinuxOS and write something about Linux operating system.tt
+
+  command: cd LinuxOS
+          touch About.txt
+ 
 6.	Rename the directory “LinuxOS” into “Linux”.
+
+  command : mv LinuxOS Linux
+
+
 7.	Print the path and access permission of Linux directory.
+
 8.	Change the working directory as “Devops” and create a text file “about” and write something about Devops in it.
+
+  Command :cd 
+          cd Devops
+          touch about.txt
+          
 9.	List the files in “Devops”
+
+  Command: ls
+  about.txt LinuxCommands.c
+  
 10.	Copy the file “about” into ‘Linux’ and name the copied file as ‘devops’
+
+
+  Command : cp /home/aparna/Devops/about.txt /home/aparna/Linux/devops.txt
+            cd Linux
+            ls
+            About.txt devops.txt
+            
